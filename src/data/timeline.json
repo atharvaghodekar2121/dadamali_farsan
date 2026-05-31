@@ -1,0 +1,38 @@
+[
+  {
+    "year": "१९६७",
+    "yearEnglish": "1967",
+    "title": "दादा माळी गादे",
+    "titleEnglish": "Dada Mali Gade",
+    "description": "व्यवसायाची सुरुवात. अस्सल गावाकडील फरसाणाची परंपरा सुरू झाली.",
+    "generation": "पहिली पिढी",
+    "generationEnglish": "1st Generation"
+  },
+  {
+    "year": "१९८०+",
+    "yearEnglish": "1980s",
+    "title": "मारुतीराव गादे",
+    "titleEnglish": "Marutirav Gade",
+    "description": "परंपरा पुढे चालवत व्यवसायाचा विस्तार केला.",
+    "generation": "दुसरी पिढी",
+    "generationEnglish": "2nd Generation"
+  },
+  {
+    "year": "२०००+",
+    "yearEnglish": "2000s",
+    "title": "शंकरराव गादे (आबा) आणि सोमनाथ गादे",
+    "titleEnglish": "Shankarrao Gade (Aba) & Somnath Gade",
+    "description": "व्यवसायाचा विस्तार. शहरटाकळी आणि परिसरातील बाजारांमध्ये विश्वासार्ह नाव.",
+    "generation": "तिसरी पिढी",
+    "generationEnglish": "3rd Generation"
+  },
+  {
+    "year": "आज",
+    "yearEnglish": "Present",
+    "title": "चाणक्य गादे आणि सिद्धांत गादे",
+    "titleEnglish": "Chanakya Gade & Siddhant Gade",
+    "description": "चौथी पिढी म्हणून ही परंपरा अभिमानाने पुढे नेत आहेत.",
+    "generation": "चौथी पिढी",
+    "generationEnglish": "4th Generation"
+  }
+]

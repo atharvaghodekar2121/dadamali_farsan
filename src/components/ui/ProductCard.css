@@ -1,0 +1,121 @@
+/* ========================================
+   Product Card Styles
+   ======================================== */
+
+.product-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-gold);
+}
+
+/* ── Image ── */
+.product-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  overflow: hidden;
+  background: var(--color-cream);
+}
+
+.product-card__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.5s ease;
+}
+
+.product-card__image.loaded {
+  opacity: 1;
+}
+
+.product-card:hover .product-card__image.loaded {
+  transform: scale(1.05);
+}
+
+.product-card__placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product-card__fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  background: linear-gradient(135deg, var(--color-cream), var(--color-cream-dark));
+}
+
+.product-card__fallback-icon {
+  font-size: 3rem;
+}
+
+.product-card__fallback-text {
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-muted);
+}
+
+/* ── Content ── */
+.product-card__content {
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-card__name {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-bold);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+
+.product-card__name-en {
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+  font-weight: var(--fw-medium);
+  margin-bottom: var(--space-3);
+}
+
+.product-card__description {
+  font-size: var(--fs-base);
+  color: var(--color-text-light);
+  line-height: var(--lh-relaxed);
+  margin-bottom: var(--space-5);
+  flex: 1;
+}
+
+.product-card__btn {
+  width: 100%;
+  justify-content: center;
+  margin-top: auto;
+}
+
+/* ── Responsive ── */
+@media (max-width: 425px) {
+  .product-card__content {
+    padding: var(--space-4);
+  }
+}

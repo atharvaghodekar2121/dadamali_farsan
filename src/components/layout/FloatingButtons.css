@@ -1,0 +1,93 @@
+/* ========================================
+   Floating Buttons Styles
+   ======================================== */
+
+.floating-whatsapp {
+  position: fixed;
+  bottom: var(--space-8);
+  right: var(--space-8);
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--color-whatsapp) 0%, var(--color-whatsapp-dark) 100%);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  z-index: var(--z-floating);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px) scale(0.9);
+  transition: all var(--transition-base);
+  animation: whatsappPulse 2s infinite;
+}
+
+.floating-whatsapp.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.floating-whatsapp:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+  color: var(--color-white);
+  animation: none;
+}
+
+/* ── Mobile Sticky Bar ── */
+.mobile-sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: var(--color-white);
+  display: flex;
+  z-index: var(--z-floating);
+  box-shadow: 0 -4px 20px rgba(45, 27, 14, 0.1);
+  transform: translateY(100%);
+  transition: transform var(--transition-base);
+}
+
+.mobile-sticky-bar.visible {
+  transform: translateY(0);
+}
+
+.mobile-sticky-bar__btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  font-family: var(--font-marathi);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.mobile-sticky-bar__btn:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 70%;
+  width: 1px;
+  background: var(--color-border);
+}
+
+.mobile-sticky-bar__btn--call {
+  color: var(--color-call);
+}
+
+.mobile-sticky-bar__btn--whatsapp {
+  color: var(--color-whatsapp-dark);
+}
+
+.mobile-sticky-bar__btn--map {
+  color: var(--color-directions);
+}

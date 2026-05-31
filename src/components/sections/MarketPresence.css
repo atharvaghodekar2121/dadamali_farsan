@@ -1,0 +1,126 @@
+/* ========================================
+   Market Presence Styles
+   ======================================== */
+
+.market-presence__content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease;
+}
+
+.market-presence__content.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.market-presence__text {
+  font-size: var(--fs-lg);
+  line-height: var(--lh-loose);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--space-10);
+}
+
+/* ── Market Badges ── */
+.market-presence__markets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-12);
+}
+
+.market-presence__market-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-base);
+}
+
+.market-presence__market-badge:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--color-gold);
+  transform: translateY(-2px);
+}
+
+.market-presence__market-icon {
+  font-size: 1.2rem;
+}
+
+.market-presence__market-name {
+  font-weight: var(--fw-medium);
+  color: var(--color-white);
+}
+
+/* ── Stats ── */
+.market-presence__highlight {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+
+.market-presence__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-6);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-xl);
+  transition: all var(--transition-base);
+}
+
+.market-presence__stat:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-4px);
+}
+
+.market-presence__stat-number {
+  font-size: var(--fs-4xl);
+  font-weight: var(--fw-extrabold);
+  color: var(--color-gold);
+  line-height: 1;
+}
+
+.market-presence__stat-label {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-semibold);
+  color: var(--color-white);
+}
+
+.market-presence__stat-en {
+  font-size: var(--fs-xs);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .market-presence__highlight {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-3);
+  }
+
+  .market-presence__stat {
+    padding: var(--space-4);
+  }
+
+  .market-presence__stat-number {
+    font-size: var(--fs-2xl);
+  }
+}
+
+@media (max-width: 425px) {
+  .market-presence__markets {
+    flex-direction: column;
+    align-items: center;
+  }
+}

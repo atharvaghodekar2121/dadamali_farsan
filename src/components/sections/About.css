@@ -1,0 +1,31 @@
+/* ========================================
+   About Section Styles
+   ======================================== */
+
+.about__intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--color-white);
+  padding: var(--space-8);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border-light);
+}
+
+.about__intro-text {
+  font-size: var(--fs-xl);
+  line-height: var(--lh-loose);
+  color: var(--color-text);
+  font-weight: var(--fw-medium);
+}
+
+@media (max-width: 768px) {
+  .about__intro {
+    padding: var(--space-6);
+  }
+  
+  .about__intro-text {
+    font-size: var(--fs-lg);
+  }
+}

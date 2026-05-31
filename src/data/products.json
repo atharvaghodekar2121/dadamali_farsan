@@ -1,0 +1,79 @@
+[
+  {
+    "id": "special-farsan",
+    "nameMarathi": "दादा माळी स्पेशल फरसाण",
+    "nameEnglish": "Dada Mali Special Farsan",
+    "descriptionMarathi": "आमचे खास लोकप्रिय आणि चटकदार फरसाण",
+    "descriptionEnglish": "Our special, popular, and tangy Farsan",
+    "image": "/assets/products/special-farsan.jpg",
+    "price": "₹१६०/kg",
+    "isPopular": true,
+    "whatsappLink": "https://wa.me/919822262526?text=नमस्कार,%20मला%20दादा%20माळी%20स्पेशल%20फरसाण%20बद्दल%20माहिती%20हवी%20आहे"
+  },
+  {
+    "id": "godi-shev",
+    "nameMarathi": "गोडी शेव",
+    "nameEnglish": "Sweet Shev",
+    "descriptionMarathi": "पारंपरिक पद्धतीने बनवलेली गोड आणि कुरकुरीत शेव",
+    "descriptionEnglish": "Traditionally made sweet and crispy Shev",
+    "image": "/assets/products/godi-shev.jpg",
+    "price": "₹१४०/kg",
+    "isPopular": false,
+    "whatsappLink": "https://wa.me/919822262526?text=नमस्कार,%20मला%20गोडी%20शेव%20बद्दल%20माहिती%20हवी%20आहे"
+  },
+  {
+    "id": "shev",
+    "nameMarathi": "तिखट शेव",
+    "nameEnglish": "Spicy Shev",
+    "descriptionMarathi": "चहा सोबत खाण्यासाठी उत्तम तिखट शेव",
+    "descriptionEnglish": "Perfect spicy Shev to enjoy with tea",
+    "image": "/assets/products/shev.jpg",
+    "price": "₹१४०/kg",
+    "isPopular": true,
+    "whatsappLink": "https://wa.me/919822262526?text=नमस्कार,%20मला%20तिखट%20शेव%20बद्दल%20माहिती%20हवी%20आहे"
+  },
+  {
+    "id": "pedha",
+    "nameMarathi": "पेढा",
+    "nameEnglish": "Special Pedha",
+    "descriptionMarathi": "शुद्ध दुधापासून बनवलेला स्वादिष्ट पेढा",
+    "descriptionEnglish": "Delicious Pedha made from pure milk",
+    "image": "/assets/products/pedha.jpg",
+    "price": "₹४००/kg",
+    "isPopular": true,
+    "whatsappLink": "https://wa.me/919822262526?text=नमस्कार,%20मला%20पेढ्याबद्दल%20माहिती%20हवी%20आहे"
+  },
+  {
+    "id": "laddu",
+    "nameMarathi": "बुंदी लाडू",
+    "nameEnglish": "Bundi Laddu",
+    "descriptionMarathi": "साजूक तुपातील मऊ आणि चविष्ट लाडू",
+    "descriptionEnglish": "Soft and tasty Laddu made in pure ghee",
+    "image": "/assets/products/laddu.jpg",
+    "price": "₹२००/kg",
+    "isPopular": false,
+    "whatsappLink": "https://wa.me/919822262526?text=नमस्कार,%20मला%20लाडूबद्दल%20माहिती%20हवी%20आहे"
+  },
+  {
+    "id": "jalebi",
+    "nameMarathi": "जलेबी",
+    "nameEnglish": "Crispy Jalebi",
+    "descriptionMarathi": "गरमागरम आणि रसाळ जलेबी",
+    "descriptionEnglish": "Hot and juicy Jalebi",
+    "image": "/assets/products/jalebi.jpg",
+    "price": "₹१२०/kg",
+    "isPopular": true,
+    "whatsappLink": "https://wa.me/919822262526?text=नमस्कार,%20मला%20जलेबी%20बद्दल%20माहिती%20हवी%20आहे"
+  },
+  {
+    "id": "khurma",
+    "nameMarathi": "खुरमा",
+    "nameEnglish": "Sweet Khurma",
+    "descriptionMarathi": "खास सणांसाठी बनवला जाणारा खुरमा",
+    "descriptionEnglish": "Special Khurma made for festivals",
+    "image": "/assets/products/khurma.jpg",
+    "price": "₹१६०/kg",
+    "isPopular": false,
+    "whatsappLink": "https://wa.me/919822262526?text=नमस्कार,%20मला%20खुरमा%20बद्दल%20माहिती%20हवी%20आहे"
+  }
+]

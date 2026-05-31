@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gal-1",
+    "src": "/assets/gallery/gal-1.jpg",
+    "alt": "आमचे सुप्रसिद्ध फरसाण",
+    "altEnglish": "Famous Farsan"
+  },
+  {
+    "id": "gal-2",
+    "src": "/assets/gallery/gal-2.jpg",
+    "alt": "गरमागरम गोडी शेव",
+    "altEnglish": "Fresh Sweet Shev"
+  },
+  {
+    "id": "gal-3",
+    "src": "/assets/gallery/gal-3.jpg",
+    "alt": "रसाळ जलेबी",
+    "altEnglish": "Juicy Jalebi"
+  },
+  {
+    "id": "gal-4",
+    "src": "/assets/gallery/gal-4.jpg",
+    "alt": "पारंपरिक पेढे",
+    "altEnglish": "Traditional Pedhas"
+  }
+]

@@ -1,0 +1,22 @@
+/* ========================================
+   Products Section Styles
+   ======================================== */
+
+.products__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-8);
+}
+
+@media (max-width: 1024px) {
+  .products__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 425px) {
+  .products__grid {
+    grid-template-columns: 1fr;
+  }
+}
